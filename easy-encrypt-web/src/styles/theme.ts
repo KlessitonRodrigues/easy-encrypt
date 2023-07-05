@@ -17,6 +17,7 @@ export const defaultTheme: Theme = {
     gray: materialColors.grey['500'],
     yellow: atlassianColors.yellow['600'],
     red: atlassianColors.red['800'],
+    blue: atlassianColors.blue['500'],
     green: materialColors.lightGreen['800'],
     white: materialColors.grey['300'],
     black: materialColors.black,

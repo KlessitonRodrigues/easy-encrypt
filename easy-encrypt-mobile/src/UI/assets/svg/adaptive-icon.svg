@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
-<svg viewBox="0 0 1000 1000" xmlns="http://www.w3.org/2000/svg">
-  <path d="M 556.159 416.869 L 556.159 353.47 C 556.159 312.37 512.068 286.683 476.794 307.233 C 460.424 316.77 450.338 334.395 450.338 353.47 L 450.338 416.869" stroke-linecap="round" stroke-linejoin="round" style="stroke: rgb(255, 255, 255); stroke-width: 16px;" fill="none"/>
-  <rect x="397.429" y="416.868" width="211.641" height="181.524" rx="48" ry="48" stroke-linecap="round" stroke-linejoin="round" style="stroke: rgb(255, 255, 255); stroke-width: 16px;" fill="none"/>
-  <text style="fill: rgb(255, 255, 255); font-family: Inter; font-size: 59px; font-weight: 600; white-space: pre;" x="339.741" y="685.679" transform="matrix(1.085187, 0, 0, 1.000136, -60.294865, -0.040071)">EncryptEasy</text>
+<svg class="ionicon" viewBox="0 0 1200 1200" xmlns="http://www.w3.org/2000/svg" xmlns:bx="https://boxy-svg.com">
+  <defs>
+    <filter id="outline-filter-0" color-interpolation-filters="sRGB" x="-500%" y="-500%" width="1000%" height="1000%" bx:preset="outline 1 5 rgba(84,83,83,1)">
+      <feMorphology in="SourceAlpha" result="dilated" operator="dilate" radius="5"/>
+      <feFlood flood-color="rgba(84,83,83,1)" result="flood"/>
+      <feComposite in="flood" in2="dilated" operator="in" result="outline"/>
+      <feMerge>
+        <feMergeNode in="outline"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <path d="M 681.752 542.581 L 681.752 447.581 C 681.752 385.997 615.085 347.507 561.752 378.299 C 537 392.59 521.752 419 521.752 447.581 L 521.752 542.581" stroke-linecap="round" stroke-linejoin="round" stroke-width="32" style="stroke: rgb(232, 232, 232); filter: url(#outline-filter-0);" fill="none"/>
+  <rect x="450.227" y="542.581" width="295.989" height="272" rx="52.436" ry="52.436" stroke-linecap="round" stroke-linejoin="round" stroke-width="32" style="filter: url(#outline-filter-0); stroke: rgb(84, 83, 83); fill: rgb(84, 83, 83);"/>
+  <rect x="584.151" y="646.623" width="26.576" height="83.295" style="stroke-linejoin: round; fill: rgb(255, 255, 255); stroke-width: 2px; stroke: rgb(223, 223, 223);" rx="9.45" ry="9.45"/>
 </svg>

@@ -60,8 +60,8 @@ export const Label = styled.span(
   ({ theme }) => css`
     padding: ${theme.size(0.5)} 0;
     padding-top: ${theme.size(1)};
-    font-size: ${theme.fontSize.body};
-    font-family: sans-serif;
+    font-size: ${theme.fontSize.label};
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
   `
 );

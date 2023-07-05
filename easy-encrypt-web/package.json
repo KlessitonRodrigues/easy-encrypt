@@ -8,8 +8,7 @@
     "watch": "webpack --watch",
     "serve": "webpack serve",
     "start": "http-server dist/",
-    "lint": "prettier -c -w ./src",
-    "prebuild": "yarn lint",
+    "format": "prettier -c -w ./src",
     "link-types": "cd src && ln -s ../../@types"
   },
   "dependencies": {

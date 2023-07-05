@@ -1,4 +1,4 @@
-export const enLang: MobileLanguageDefinition = {
+export const enLang: LangContent = {
   page: {
     home: {
       textInput: 'Text',

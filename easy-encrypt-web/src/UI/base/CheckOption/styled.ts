@@ -14,7 +14,7 @@ export const Container = styled.div<{ checked: boolean }>(
     cursor: pointer;
     box-shadow: ${theme.shadow.low};
     background-color: ${theme.colors.bg3};
-    transition: border 0.3s;
+    transition: border 0.3s, box-shadow 0.3s;
 
     ${checked && `background-color: ${theme.colors.bg1}; border-color: ${theme.colors.main}`};
 

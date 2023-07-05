@@ -1,4 +1,4 @@
-export const ptLang: MobileLanguageDefinition = {
+export const ptLang: LangContent = {
   page: {
     home: {
       textInput: 'Texto',

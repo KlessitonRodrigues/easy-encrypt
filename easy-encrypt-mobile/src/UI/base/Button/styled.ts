@@ -27,7 +27,7 @@ export const Container = styled.TouchableOpacity<{ color: ButtonProps['color'] }
           return css`
             background-color: transparent;
             border-width: 1.5px;
-            border-color: ${theme.colors.gray};
+            border-color: ${theme.colors.text4};
           `;
       }
     }}

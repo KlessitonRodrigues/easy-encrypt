@@ -20,6 +20,7 @@ const EncryptPanel = (props: EncryptPanelProps) => {
         <TextArea
           label={home.textInput}
           value={form.inputText}
+          placeHolder={home.textInputPlaceholder}
           onChange={inputText => setform({ ...form, inputText })}
         />
       </InputText>
@@ -44,6 +45,7 @@ const EncryptPanel = (props: EncryptPanelProps) => {
         <Input
           label={home.passwordInput}
           value={form.password}
+          placeHolder={home.passwordInputPlaceholder}
           onChange={password => setform({ ...form, password })}
         />
 

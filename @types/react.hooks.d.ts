@@ -27,9 +27,9 @@ type SendDataState = {
 type SendDataContext = [SendDataState, React.Dispatch<React.SetStateAction<SendDataState>>];
 
 // useLangContext
-type MobileLangState = {
+type LangState = {
   type: 'en' | 'pt';
-  text: MobileLanguageDefinition;
+  text: LangContent;
 };
 
-type MobileLangContext = [MobileLangState, React.Dispatch<React.SetStateAction<MobileLangState>>];
+type LangContext = [LangState, React.Dispatch<React.SetStateAction<LangState>>];

@@ -1,8 +1,10 @@
-export const ptLang: MobileLanguageDefinition = {
+export const ptLang: LangContent = {
   page: {
     home: {
       textInput: 'Texto',
+      textInputPlaceholder: 'Adicione um texto',
       passwordInput: 'Senha',
+      passwordInputPlaceholder: 'Adicione uma senha',
       encryptType: 'Tipo de criptografia',
       encryptTypeCheckbox1: 'Forte',
       encryptTypeCheckbox1Items: ['Usa algoritmo de criptografia EAS'],
@@ -14,6 +16,7 @@ export const ptLang: MobileLanguageDefinition = {
       encryptButton: 'Encriptar',
       decryptButton: 'Desencriptar',
       resultInput: 'Resultado',
+      resultInputPlaceholder: 'Texto encriptado ou desencriptado',
       copyButton: 'Copiar',
     },
   },
